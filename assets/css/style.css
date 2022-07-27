@@ -77,7 +77,7 @@ a:hover {
 
 .portfolio {
     height: 300px;
-    width: 13.5%;
+    width: 16.5%;
     border: solid white 10px;
     margin: auto;
     padding: 60px;
@@ -85,6 +85,11 @@ a:hover {
     background-size: cover;
     background-position: center;
     background-color: black;
+}
+
+
+.portfolio:hover {
+    opacity: 1;
 }
 
 .float-left {
@@ -104,6 +109,7 @@ a:hover {
 }
 
 .aside {
+    border-radius: 40px;
     margin-top: 25px;
     margin-right: 10px;
     padding: 10px;
@@ -112,7 +118,7 @@ a:hover {
     width: 20%;
     height: 970px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #ff9800;
+    background-color: #ab7a29;
     position: sticky;
 }
 
@@ -166,7 +172,7 @@ a:hover {
     padding: 40px 40px 0px 20px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #ff9800;
+    background: #5b725a;
     color: #ffffff;
 }
 
@@ -203,7 +209,7 @@ a:hover {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #ff9800;
+    background: #5b725a;
     color: #ffffff;
 }
 
@@ -214,6 +220,11 @@ a:hover {
     width: 200px;
     margin: 5px 40px 15px 40px;
 
+}
+
+
+.search-engine-optimization img:hover {
+    opacity: 1;
 }
 
 
@@ -251,24 +262,28 @@ a:hover {
 }
 
 
-/*added a footer for semantics */
-.footer {
 
+.footer {
     margin-bottom: 50px;
     padding: 10px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 10px;
     text-align: center;
-    background-color: #ff9800;
+    background: #5b725a;
     left: 0;
     bottom: 0%;
     height: 70px;
     width: 100%;
     position: static;
 
+}
 
 
+@media screen and (max-width: 550px) {
 
 
+    .header {
+        background: #8f6d29;
+    }
 }
