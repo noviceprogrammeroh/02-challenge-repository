@@ -10,6 +10,7 @@ This repository hosts the 02 challenge
 - Added hover background-color change when user hovers on the links
 - Refactored styles
 - Added home, about, projects, captstone links and created In progress page.
+- Added variables
 - Added header and nav screenshot
 
 

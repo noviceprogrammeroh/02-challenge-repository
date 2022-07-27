@@ -16,8 +16,8 @@ body {
 }
 
 .header {
-    margin: 25px 0px 0px 0px;
-    padding: 20px;
+    margin: 5px 0px 0px 0px;
+    padding: 10px;
     font-family: cursive;
     background-color: rgb(52, 46, 52);
 
@@ -26,9 +26,8 @@ body {
 
 
 .header-h1 {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 50px 0px;
     text-align: center;
-    display: block;
     background-color: rgb(52, 46, 52);
     padding: 16px 0px 0px 16px;
     font-size: 46px;
@@ -39,7 +38,6 @@ body {
 }
 
 .nav-ul div li {
-
     color: black;
     display: inline-block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -59,6 +57,14 @@ body {
     justify-content: center;
     text-align: center;
 }
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
 
 .search-engine-optimization {
     margin-right: 35px;
@@ -82,16 +88,28 @@ a:hover {
 }
 
 .portfolio {
-    height: 300px;
-    width: 16.5%;
+    height: 250px;
+    width: 250px;
     border: solid white 10px;
     margin: auto;
-    padding: 60px;
+    padding: 30px 30px 30px 30px;
     background-image: url("../images/mypic2.jpg");
     border-radius: 50%;
     background-size: cover;
     background-position: center;
     background-color: black;
+
+}
+
+.figure {
+    margin: auto;
+    padding: 3px;
+    text-align: center;
+    color: var(--whiteFont);
+    font-family: cursive;
+    font-size: medium;
+    justify-content: center;
+
 }
 
 
@@ -99,35 +117,26 @@ a:hover {
     opacity: 1;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 10px;
+    flex: 4;
+    margin-top: 1px;
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.aside {
+/* .aside {
     border-radius: 40px;
-    margin-top: 25px;
-    margin-right: 10px;
-    padding: 10px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 970px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #ab7a29;
-    position: sticky;
-}
+    margin: 50px 0px 35px 20px;
+    flex: 1;
+    background-color: #b9c6ae;
+    padding: 80px;
+    text-align: center;
+
+} */
 
 /* .benefit-lead,
 .benefit-brand {
@@ -173,22 +182,22 @@ a:hover {
 } */
 
 /*thi was search-engine-optimization */
-.search-engine-optimization {
+/* .search-engine-optimization {
     border-radius: 40px;
-    margin: 30px 0px 35px 20px;
+    margin: 50px 0px 35px 20px;
     padding: 40px 40px 0px 20px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--greenColor);
     color: var(--whiteFont);
-}
-
+    width: 300px;
+} */
+/* 
 #p1-searchengine {
     text-align: justify;
     padding: 5px;
     margin-left: 5px;
-    float: left;
-    width: 400px;
+    width: 100px;
 }
 
 #p1-online-reputation-management {
@@ -196,28 +205,41 @@ a:hover {
     padding: 4px;
     margin-top: 15px;
     margin-right: 10%;
-    float: left;
-    width: 400px;
+    width: 100px;
 }
 
 #p1-social-media-marketing {
     text-align: justify;
     padding: 4px;
     margin-top: 10px;
-    margin-right: 10%;
-    float: left;
-    width: 400px;
+    width: 100px;
 }
 
+#p1-capstone {
+    text-align: justify;
+    padding: 4px;
+    margin-top: 10px;
+    margin-right: 10%;
+    width: 100px;
+
+} */
+
+
+.search-engine-optimization,
 .online-reputation-management,
-.social-media-marketing {
+.social-media-marketing,
+.capstone-project {
     border-radius: 40px;
-    margin: 0px 0px 35px 20px;
+    margin: 100px 60px 35px 20px;
     padding: 50px;
     height: 300px;
+    width: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: var(--greenColor);
-    color: var(--whiteFont)
+    color: var(--whiteFont);
+    justify-content: center;
+    text-align: center;
+
 }
 
 
@@ -250,6 +272,15 @@ a:hover {
 }
 
 
+.capstone-project img {
+    height: 230px;
+    width: 310px;
+    margin: 5px 20px 15px 10px;
+    padding-bottom: 10px;
+}
+
+
+
 .search-engine-optimization h2 {
     margin: 3px 0px 5px 50px;
     padding: 10px;
@@ -262,11 +293,18 @@ a:hover {
     float: left;
 }
 
-.social-media-marketing h2 {
+.capstone-project h2 {
     margin-bottom: 10px;
     margin-left: 20px;
     font-size: 36px;
 }
+
+/* .captstone h2 {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 36px;
+} */
+
 
 
 
