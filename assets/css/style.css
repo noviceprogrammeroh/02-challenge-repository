@@ -1,26 +1,26 @@
 :root {
-    --greenColor: #5b725a;
+    --elementColor: #630027;
     --whiteFont: #ffffff;
+    --mediaColor: #5a87d3;
 }
 
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0; */
 }
 
 
 body {
-    background-color: rgb(52, 46, 52);
-    overflow: scroll;
+    background-color: black;
+    /* overflow: scroll; */
 }
 
 .header {
     margin: 5px 0px 0px 0px;
     padding: 10px;
     font-family: cursive;
-    background-color: rgb(52, 46, 52);
-
+    background-color: var(--elementColor);
 }
 
 
@@ -28,27 +28,25 @@ body {
 .header-h1 {
     margin: 0px 0px 50px 0px;
     text-align: center;
-    background-color: rgb(52, 46, 52);
+    background-color: black;
     padding: 16px 0px 0px 16px;
     font-size: 46px;
     font-family: cursive;
     color: whitesmoke;
-
-
 }
+
 
 .nav-ul div li {
     color: black;
     display: inline-block;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     margin-top: 25px;
-
-
 }
 
+
 .ul {
-    color: black;
+    background-color: var(--elementColor);
     list-style-type: none;
     margin: auto;
     padding: 20px;
@@ -59,20 +57,33 @@ body {
 }
 
 
-.main {
-    display: flex;
-    flex-wrap: wrap;
+main {
+    color: white;
+}
 
+main section h1 {
+    text-align: center;
 }
 
 
-.search-engine-optimization {
-    margin-right: 35px;
+.about p {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.li-online-reputation {
-    margin-left: 35px;
+
+
+.contact p {
+    text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
+
+
+
 
 a {
     margin: 10px;
@@ -87,18 +98,17 @@ a:hover {
     background-color: rgb(168, 176, 176);
 }
 
-.portfolio {
+.mypic {
     height: 250px;
     width: 250px;
     border: solid white 10px;
     margin: auto;
     padding: 30px 30px 30px 30px;
-    background-image: url("../images/mypic2.jpg");
+    background-image: url("../images/thirdpic.jpg");
     border-radius: 50%;
     background-size: cover;
     background-position: center;
     background-color: black;
-
 }
 
 .figure {
@@ -109,202 +119,58 @@ a:hover {
     font-family: cursive;
     font-size: medium;
     justify-content: center;
-
 }
 
+.card-section {}
 
-.portfolio:hover {
-    opacity: 1;
+.card-1 {
+    width: 75vw;
+    height: 40vh;
+    background-color: var(--elementColor);
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 1rem; */
 }
 
-
-
-.content {
-    flex: 4;
-    margin-top: 1px;
-    padding: 1px;
+.row {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
-/* .aside {
-    border-radius: 40px;
-    margin: 50px 0px 35px 20px;
-    flex: 1;
-    background-color: #b9c6ae;
-    padding: 80px;
-    text-align: center;
-
-} */
-
-/* .benefit-lead,
-.benefit-brand {
-    color: #ffffff;
-    margin: 3px;
-    padding: 5px;
-} */
-
-/* #benefit-lead-p1,
-#benefit-brand-p1,
-#benefit-cost-p1 {
-    border: 1px;
-    margin-left: 10px;
-    text-align: justify;
-} */
-
-/* .benefit-cost {
-    color: #ffffff;
-    margin: 3px;
-    padding: 5px;
-} */
-
-
-/* .benefit-lead h3 {
-    margin-bottom: 15px;
-    text-align: center;
-} */
-
-/* .benefit-brand h3,
-.benefit-cost h3 {
-    margin-top: 25px;
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-/* .benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
-    display: block;
-    margin: 3px auto;
-    max-width: 150px;
-
-} */
-
-/*thi was search-engine-optimization */
-/* .search-engine-optimization {
-    border-radius: 40px;
-    margin: 50px 0px 35px 20px;
-    padding: 40px 40px 0px 20px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--greenColor);
-    color: var(--whiteFont);
-    width: 300px;
-} */
-/* 
-#p1-searchengine {
-    text-align: justify;
-    padding: 5px;
-    margin-left: 5px;
-    width: 100px;
-}
-
-#p1-online-reputation-management {
-    text-align: justify;
-    padding: 4px;
-    margin-top: 15px;
-    margin-right: 10%;
-    width: 100px;
-}
-
-#p1-social-media-marketing {
-    text-align: justify;
-    padding: 4px;
-    margin-top: 10px;
-    width: 100px;
-}
-
-#p1-capstone {
-    text-align: justify;
-    padding: 4px;
-    margin-top: 10px;
-    margin-right: 10%;
-    width: 100px;
-
-} */
-
-
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing,
-.capstone-project {
-    border-radius: 40px;
-    margin: 100px 60px 35px 20px;
-    padding: 50px;
-    height: 300px;
-    width: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: var(--greenColor);
-    color: var(--whiteFont);
+.row-2 {
+    display: flex;
     justify-content: center;
-    text-align: center;
+}
 
+.card {
+    width: 37vw;
+    height: 20vh;
+    background-color: var(--elementColor);
+    margin-left: .25rem;
+    margin-right: .25rem;
+    margin-top: .5rem;
 }
 
 
-
-.search-engine-optimization img {
-    height: 200px;
-    width: 200px;
-    margin: 5px 40px 15px 40px;
-
-}
-
-
-.search-engine-optimization img:hover {
+.mypic:hover {
     opacity: 1;
 }
 
-
-.online-reputation-management img {
-    height: 210px;
-    width: 340px;
-    margin: 10px 150px 30px 10px;
-
+/*icons for social media */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
 }
 
-.social-media-marketing img {
-    height: 230px;
-    width: 310px;
-    margin: 5px 20px 15px 10px;
-    padding-bottom: 10px;
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
 }
 
-
-.capstone-project img {
-    height: 230px;
-    width: 310px;
-    margin: 5px 20px 15px 10px;
-    padding-bottom: 10px;
+.fa-google {
+    background: #dd4b39;
+    color: white;
 }
-
-
-
-.search-engine-optimization h2 {
-    margin: 3px 0px 5px 50px;
-    padding: 10px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 1px;
-    font-size: 36px;
-    float: left;
-}
-
-.capstone-project h2 {
-    margin-bottom: 10px;
-    margin-left: 20px;
-    font-size: 36px;
-}
-
-/* .captstone h2 {
-    margin-bottom: 10px;
-    margin-left: 20px;
-    font-size: 36px;
-} */
-
 
 
 
@@ -315,24 +181,84 @@ a:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 10px;
     text-align: center;
-    background-color: var(--greenColor);
+    background-color: var(--elementColor);
     left: 0;
     bottom: 0%;
     height: 70px;
     width: 100%;
     position: static;
-
 }
 
 
-@media screen and (max-width: 992px) {
+/*laptop devices */
 
+@media screen and (max-width: 1024px) {
 
+    body {
+        background-color: #ffffff;
 
-    .aside,
-    .nav-ul {
-        background-color: #34322f;
-        border-radius: 40px;
-        border: solid white 1px
     }
+
+    .header-h1 {
+        margin-top: 20px;
+        background-color: #ffffff;
+        font-size: 46px;
+        font-family: cursive;
+        color: black;
+    }
+
+    .about p {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: cursive;
+        color: black
+    }
+
+    .figure {
+        margin: auto;
+        padding: 3px;
+        text-align: center;
+        color: black;
+        font-family: cursive;
+        font-size: medium;
+        justify-content: center;
+
+    }
+
+    .card,
+    .card-1 {
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--mediaColor);
+        margin-left: .25rem;
+        margin-right: .25rem;
+        margin-top: .5rem;
+    }
+
+    /* Change the header color */
+    header,
+    .ul {
+        background: var(--mediaColor);
+        border-radius: 35px;
+    }
+
+    .footer {
+        background: var(--mediaColor);
+        padding: 10px;
+        text-align: center;
+    }
+
+}
+
+/*tablet */
+@media screen and (max-width: 768px) {
+
+    main,
+    nav {
+        flex-direction: column;
+        background-color: #ea7a7a;
+    }
+
+
 }
