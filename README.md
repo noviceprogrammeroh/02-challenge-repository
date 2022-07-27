@@ -9,6 +9,7 @@ This repository hosts the 02 challenge
 - Use semantics like header, nav, main, articles, aside and a footer.
 - Added hover background-color change when user hovers on the links
 - Refactored styles
--  Added header and nav screenshot
+- Added home, about, projects, captstone links and created In progress page.
+- Added header and nav screenshot
 
 
