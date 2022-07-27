@@ -26,6 +26,7 @@ body {
     background-color: rgb(52, 46, 52);
     padding: 16px 0px 0px 16px;
     font-size: 46px;
+    font-family: cursive;
     color: whitesmoke;
 
 
@@ -66,7 +67,12 @@ a {
     color: #ffffff;
     text-decoration: none;
     color: whitesmoke;
+    font-family: cursive;
 
+}
+
+a:hover {
+    background-color: rgb(168, 176, 176);
 }
 
 .portfolio {
