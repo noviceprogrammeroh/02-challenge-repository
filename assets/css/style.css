@@ -79,7 +79,6 @@ main section h1 {
 
 }
 
-
 .about p {
     width: 30%;
     margin-left: auto;
@@ -89,8 +88,6 @@ main section h1 {
     font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
 .contact p {
     text-align: center;
     width: 30%;
@@ -98,8 +95,6 @@ main section h1 {
     margin-right: auto;
     padding: 5px;
 }
-
-
 
 
 a {
@@ -130,6 +125,17 @@ a:hover {
 
 .figure {
     margin: auto;
+    padding: 1px;
+    text-align: center;
+    color: var(--whiteFont);
+    font-family: cursive;
+    font-size: medium;
+    justify-content: center;
+}
+
+
+.figure-2 {
+    margin: auto;
     padding: 15px;
     text-align: center;
     color: var(--whiteFont);
@@ -144,10 +150,6 @@ a:hover {
 
 }
 
-
-
-
-
 .card-1 {
     width: 75vw;
     height: 70vh;
@@ -160,10 +162,10 @@ a:hover {
 .main-image {
     margin-top: 20px;
     margin-right: auto;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     margin-left: auto;
-    width: 40vw;
-    height: 52vh;
+    width: 50vw;
+    height: 54vh;
     justify-content: center;
     display: flex;
     opacity: 0.8;
@@ -173,9 +175,6 @@ a:hover {
 .main-image:hover {
     opacity: 1;
 }
-
-
-
 
 
 .row {
@@ -222,8 +221,6 @@ a:hover {
     background: #dd4b39;
     color: white;
 }
-
-
 
 .footer {
     margin-bottom: 50px;
