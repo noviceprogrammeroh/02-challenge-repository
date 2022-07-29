@@ -11,6 +11,7 @@ This repository hosts the 02 challenge
 - Refactored styles
 - Added home, about, projects, captstone links and created In progress page.
 - Added variables
+- Added contact information and media icons
 - Added header and nav screenshot
 
 
