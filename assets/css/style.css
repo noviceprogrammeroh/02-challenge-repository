@@ -13,11 +13,11 @@
 
 body {
     background-color: black;
-    /* overflow: scroll; */
+    overflow: scroll;
 }
 
 .header {
-    margin: 5px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
     padding: 10px;
     font-family: cursive;
     background-color: var(--elementColor);
@@ -46,11 +46,11 @@ body {
 
 
 .ul {
-    background-color: var(--elementColor);
+    background-color: black;
     list-style-type: none;
     margin: auto;
     padding: 20px;
-    border-radius: 35px;
+    border-radius: 10px;
     border: solid white 1px;
     justify-content: center;
     text-align: center;
@@ -117,7 +117,7 @@ a:hover {
     margin: auto;
     padding: 30px 30px 30px 30px;
     background-image: url("../images/thirdpic.jpg");
-    border-radius: 50%;
+    border-radius: 80%;
     background-size: cover;
     background-position: center;
     background-color: black;
@@ -151,7 +151,7 @@ a:hover {
 }
 
 .card-1 {
-    width: 75vw;
+    width: 76.5vw;
     height: 70vh;
     background-color: var(--elementColor);
     margin-left: auto;
@@ -160,12 +160,13 @@ a:hover {
 }
 
 .main-image {
+    border-radius: 5%;
     margin-top: 20px;
     margin-right: auto;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
     margin-left: auto;
     width: 50vw;
-    height: 54vh;
+    height: 50vh;
     justify-content: center;
     display: flex;
     opacity: 0.8;
@@ -175,6 +176,37 @@ a:hover {
 .main-image:hover {
     opacity: 1;
 }
+
+
+
+.office-image {
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 20vw;
+    height: 20vh;
+    justify-content: center;
+    display: flex;
+    opacity: 0.8;
+    transition: 0.3s;
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+
+.office-image:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
 
 
 .row {
@@ -193,8 +225,8 @@ a:hover {
 }
 
 .card {
-    width: 37vw;
-    height: 20vh;
+    width: 38vw;
+    height: 35vh;
     background-color: var(--elementColor);
     margin-left: .25rem;
     margin-right: .25rem;

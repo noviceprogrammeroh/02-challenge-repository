@@ -17,4 +17,16 @@ This repository hosts the 02 challenge
 - Added header and nav screenshot
 
 
+## Sreenshots of the web page ##
+
+![This is an image](./assets/images/screenshot1mainpic.png)
+![This is an image](./assets/images/screenshotaboutme.png)
+![This is an image](./assets/images/screenshot3.png)
+
+
+### Links ###
+
+
+https://noviceprogrammeroh.github.io/02-challenge-repository/
+
 
